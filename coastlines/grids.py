@@ -54,3 +54,10 @@ INDONESIA_10 = GridSpec(
     resolution=10,
     origin=XY(-SIX_TWO_FIVE_MILLION, -ONE_TWO_FIVE_MILLION),
 )
+
+INDONESIA_10KM = GridSpec(
+    crs=INDONESIA_CRS,
+    tile_shape=(5000, 5000),
+    resolution=2,
+    origin=XY(-SIX_TWO_FIVE_MILLION, -ONE_TWO_FIVE_MILLION),
+)
