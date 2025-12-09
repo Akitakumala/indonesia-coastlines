@@ -34,7 +34,7 @@ REQUIRED = [
     "pyarrow",
     "pydantic",
     "pyproj",
-    "pyTMD>=2.1.4",
+    "pyTMD>=2.2.8",
     "python_geohash",
     "pytz",
     "PyYAML",
@@ -46,10 +46,10 @@ REQUIRED = [
     "scipy",
     "setuptools",
     "Shapely",
-    "tqdm>=4.66.3",
+    "tqdm>=4.66.5",
     "xarray",
     "pyyaml",
-    "dea_intertidal @ git+https://github.com/GeoscienceAustralia/dea-intertidal.git",
+    "dea-intertidal",
     "dep-tools @ git+https://github.com/digitalearthpacific/dep-tools.git",
 ]
 
