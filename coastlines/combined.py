@@ -983,6 +983,7 @@ def cli(
         cloud_defaults=True,
         aws_unsigned=config.aws.aws_unsigned,
         requester_pays=config.aws.aws_request_payer,
+        region_name='us-west-2',
     )
 
     try:
