@@ -122,10 +122,10 @@ spec:
             unzip -qq /tmp/tide_models.zip -d /tmp/tide_models_temp &&
             mv /tmp/tide_models_temp /tmp/tide_models
 
-            # Clone the latest version of the code on the branch argo-workflows
-            git clone https://github.com/piksel-ina/indonesia-coastlines.git /tmp/indonesia-coastlines
-            cd /tmp/indonesia-coastlines
-            git checkout update-workflow-testing
+            # # Clone the latest version of the code on the branch argo-workflows
+            # git clone https://github.com/piksel-ina/indonesia-coastlines.git /tmp/indonesia-coastlines
+            # cd /tmp/indonesia-coastlines
+            # git checkout update-workflow-testing
 
             pip install .
 
