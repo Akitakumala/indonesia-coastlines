@@ -1,7 +1,8 @@
 input:
   grid_path: "https://raw.githubusercontent.com/piksel-ina/indonesia-coastlines/main/data/raw/indonesia_50km_tiles_coast.geojson"
   #modifications_path: "https://raw.githubusercontent.com/wppratama/indonesia-coastlines/refs/heads/main/data/raw/indonesia_modifications_java_area.geojson"
-  modifications_path: "https://raw.githubusercontent.com/Akitakumala/indonesia-coastlines/refs/heads/main/data/raw/indonesia_modifications_java_area_v2.geojson"   #update on geom tile 94,20; 95,20
+  #modifications_path: "https://raw.githubusercontent.com/Akitakumala/indonesia-coastlines/refs/heads/main/data/raw/indonesia_modifications_java_area_v2.geojson"   #update on geom tile 94,20; 95,20
+  modifications_path: "https://raw.githubusercontent.com/Akitakumala/indonesia-coastlines/refs/heads/main/data/raw/indonesia_modifications_java_area_v3.geojson"  #update on whole mask after overestimated model
   geomorphology_path: "https://piksel-staging-public-data.s3.ap-southeast-3.amazonaws.com/ls_coastlines/coastal_geomorphology.zip"
 
 output:
